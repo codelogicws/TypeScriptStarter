@@ -1,0 +1,17 @@
+{
+  "name": "Calculator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo": "echo 'Hello World'",
+    "tsc": "tsc -p . -w",
+    "start": "live-server --open=html"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "typescript": "~1.8.10",
+    "live-server": "~1.0.0"
+  }
+}
