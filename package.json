@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test",
     "echo": "echo 'Hello World'",
     "tsc": "tsc -p . -w",
     "start": "live-server --open=html"
@@ -12,6 +13,8 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "typescript": "~1.8.10",
-    "live-server": "~1.0.0"
+    "live-server": "~1.0.0",
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
   }
 }
