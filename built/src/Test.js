@@ -9,6 +9,4 @@ define(["require", "exports"], function (require, exports) {
         return Test;
     }());
     exports.Test = Test;
-    console.log('test');
-    exports.bill = "Hello World";
 });
