@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./test",
     "echo": "echo 'Hello World'",
-    "tsc": "tsc -p . -w",
+    "tsc": "tsc",
     "start": "live-server --open=html"
   },
   "author": "",
@@ -15,6 +15,7 @@
     "typescript": "~1.8.10",
     "live-server": "~1.0.0",
     "chai": "~3.5.0",
-    "mocha": "~2.4.5"
+    "mocha": "~2.4.5",
+    "lodash": "~4.11.1"
   }
 }

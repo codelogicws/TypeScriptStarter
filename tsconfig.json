@@ -1,13 +1,17 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "sourceMap": false,
-        "outFile": "js/tsc.js",
+        "outDir": "built",
         "rootDir": "."
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "built",
+        ".git",
+        "html"
     ]
 }
