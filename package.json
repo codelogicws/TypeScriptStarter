@@ -1,21 +1,26 @@
 {
-  "name": "Calculator",
+  "name": "BasicApp",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./built/test",
     "echo": "echo 'Hello World'",
-    "tsc": "tsc",
+    "tsc": "tsc -w",
     "start": "live-server --open=html"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "typescript": "~1.8.10",
-    "live-server": "~1.0.0",
     "chai": "~3.5.0",
+    "live-server": "~1.0.0",
     "mocha": "~2.4.5",
-    "lodash": "~4.11.1"
+    "typescript": "~1.8.10"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "lodash": "^4.11.1",
+    "requirejs": "^2.2.0",
+    "systemjs": "^0.19.27"
   }
 }

@@ -1,8 +1,10 @@
 class Test{
   test(){
-    console.log("this is a test function");
-  }
-  test2(){
-    return "Another One";
+    return "Hello World";
   }
 }
+
+console.log('test');
+
+export const bill = "Hello World";
+export { Test };

@@ -1,8 +1,5 @@
-var Person = (function () {
-    function Person() {
-    }
-    Person.prototype.sayHello = function () {
-        console.log("Hi there");
-    };
-    return Person;
-}());
+define(["require", "exports"], function (require, exports) {
+    "use strict";
+    console.log('Person Called');
+});
+// console.log(mytest.bill);
